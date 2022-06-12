@@ -1,0 +1,67 @@
+
+.button {
+    color: white;
+    padding: 5px 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "miaowu";
+    margin-left: 10%; 
+	margin-top: 20px;
+    border-radius: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button1{
+	background-color: #383838;
+}
+.button1:hover {
+    background-color: #fdcdac;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button1:active {
+    background-color: #f1e2cc;
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+	color: #383838;
+}
+#Select{
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#Select .question{
+    border: 1px solid #383838;
+}
+#Select .wen{
+    font-size: 20px;
+    padding: 2%;
+    margin: 0;
+}
+#Select .A,
+#Select .B,
+#Select .C,
+#Select .D{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+.true1{
+    background-color: aquamarine;
+}
+.false1{
+    background-color: red;
+}
+#done{
+    left: 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 100;
+}
